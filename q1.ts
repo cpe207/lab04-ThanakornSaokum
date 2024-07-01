@@ -1,5 +1,17 @@
 function typeChecker(a, b) {
   /* Your code here */
+  // ธนกร เสาคำ 660610761
+  if(typeof a === "string" && typeof b === "string"){
+    return `I LOVE YOU`;
+  }
+
+  else if(typeof a === "number" && typeof b === "number"){
+    return a+b;
+  }
+
+  else if(typeof a === "string" && typeof b === "number"){
+    return `NOT MATCHED`;
+  }
 }
 
 //Test cases
